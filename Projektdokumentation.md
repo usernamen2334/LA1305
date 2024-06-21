@@ -1,29 +1,35 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
-
-✍️ Ihr Gruppenname und Ihre Nachnamen
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 03.05.2024      | 0.0.1     | Kickoff-Meeting und Einführung in das Projekt. Ideen für Spielmenü gesammelt.|
+| 17.05.2024      | 0.0.2     | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.                |
+| 24.05.2024      | 0.0.3     | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.                |
+| 07.06.2024      | 0.0.4     | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.                |
+| 14.06.2024      | 0.0.5     | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.                |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Wir entwickeln eine interaktive Webseite, die ein spannendes Quiz-Spiel durch ein robustes Backend ermöglicht.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+|  1   |  Muss  | Funktional | Als ein User möchte ich, dass die Quiz Game Website in der Lage ist, Fragen anzuzeigen.   |
+|  2   |  Muss  | Funktional | Als ein User möchte ich die Möglichkeit haben, zwischen vier verschiedenen Blöcken auszuwählen.   |
+|  3   |  Muss  | Qualitativ | Als ein User möchte ich, dass der richtige Block grün markiert wird, wenn ich darauf klicke.  |
+|  4   |  Muss  | Qualitativ | Als ein User möchte ich, dass ein falscher Block rot markiert wird, wenn ich darauf klicke.   |
+|  5   |  Muss  | Qualitativ | Als ein User möchte ich, dass oben rechts auf der Website die Anzahl der richtigen Antworten angezeigt wird.   |
+|  6   |  Muss  | Qualitativ | Als ein User möchte ich, dass das Projekt über VS-Code programmiert wird.  |
+|  7   |  Muss  | Qualitativ | Als ein User möchte ich, dass das Projekt mit dem IPERKA-Verfahren durchgeführt wird.   |
+|  8   |  Muss  | Qualitativ | Als ein User möchte ich, dass das Grundgerüst der Quiz Game Website mit Hilfe von HTML und der funktionale Teil mit JavaScript erstellt wird.  |
+|  9   |  Muss  | Qualitativ | Als ein User möchte ich, dass das Design der Quiz Game Website mit Hilfe von CSS erstellt wird.   |
+|  10  |  Muss  | Funktional | Als ein User möchte ich, dass das Backend das gesamte Programm unterstützt. |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
@@ -53,7 +59,7 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Für unseren Lernauftrag 1304 haben wir MongoDB als Datenbank ausgewählt und die Mongoose-Bibliothek zur Modellierung von Objektdaten verwendet. Verschiedene Beziehungen wurden damit verwaltet. Um sicherzustellen, dass Anmeldedaten nicht in einem öffentlich zugänglichen Online-Repository erscheinen, haben wir .env-Dateien genutzt.
 
 ## 4 Realisieren
 
