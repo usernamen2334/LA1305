@@ -3,11 +3,11 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 03.05.2024      | 0.0.1     | Kickoff-Meeting und Einführung in das Projekt. Ideen für Spielmenü gesammelt.|
-| 17.05.2024      | 0.0.2     | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.                |
-| 24.05.2024      | 0.0.3     | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.                |
-| 07.06.2024      | 0.0.4     | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.                |
-| 14.06.2024      | 0.0.5     | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.                |
+| 03.05.2024  | 0.0.1 | Kickoff-Meeting und Einführung in das Projekt. Ideen für Spielmenü gesammelt.|
+| 17.05.2024  | 0.0.2 | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.  |
+| 24.05.2024  | 0.0.3 | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.  |
+| 07.06.2024  | 0.0.4 | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.  |
+| 14.06.2024  | 1.0.0 | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.  |
 
 ## 1 Informieren
 
@@ -19,16 +19,14 @@ Wir entwickeln eine interaktive Webseite, die ein spannendes Quiz-Spiel durch ei
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-|  1   |  Muss  | Funktional | Als ein User möchte ich, dass die Quiz Game Website in der Lage ist, Fragen anzuzeigen.   |
-|  2   |  Muss  | Funktional | Als ein User möchte ich die Möglichkeit haben, zwischen vier verschiedenen Blöcken auszuwählen.   |
-|  3   |  Muss  | Qualitativ | Als ein User möchte ich, dass der richtige Block grün markiert wird, wenn ich darauf klicke.  |
-|  4   |  Muss  | Qualitativ | Als ein User möchte ich, dass ein falscher Block rot markiert wird, wenn ich darauf klicke.   |
-|  5   |  Muss  | Qualitativ | Als ein User möchte ich, dass oben rechts auf der Website die Anzahl der richtigen Antworten angezeigt wird.   |
-|  6   |  Muss  | Qualitativ | Als ein User möchte ich, dass das Projekt über VS-Code programmiert wird.  |
-|  7   |  Muss  | Qualitativ | Als ein User möchte ich, dass das Projekt mit dem IPERKA-Verfahren durchgeführt wird.   |
-|  8   |  Muss  | Qualitativ | Als ein User möchte ich, dass das Grundgerüst der Quiz Game Website mit Hilfe von HTML und der funktionale Teil mit JavaScript erstellt wird.  |
-|  9   |  Muss  | Qualitativ | Als ein User möchte ich, dass das Design der Quiz Game Website mit Hilfe von CSS erstellt wird.   |
-|  10  |  Muss  | Funktional | Als ein User möchte ich, dass das Backend das gesamte Programm unterstützt. |
+| 1 | Muss | Funktional | Als ein User möchte ich, dass ich spannende Fragen gestellt bekomme, bei den |
+| 1 | Muss | Funktional | Als ein User möchte ich, dass mein Gesundheitszustand im Spiel durch eine Lebensanzeige dargestellt wird. |
+| 2 | Muss | Funktional | Als ein User möchte ich, dass Entscheidungen direkte Auswirkungen auf meine Lebenspunkte haben. |
+| 3 | Muss | Qualitativ | Als ein User möchte ich, dass der Lebensanzeiger im Spiel visuelles Feedback über meinen aktuellen Gesundheitszustand gibt, indem er seine Farbe basierend auf der verbleibenden Anzahl von Lebenspunkten ändert.|
+| 4 | Muss | Qualitativ | Als ein User möchte ich, dass mir bei Entscheidungspunkten jeweils drei verschiedene Antwortmöglichkeiten zur Verfügung stehen. |
+| 5 | Muss | Qualitativ | Als ein User möchte ich meinen aktuellen Standort sehen, der sich dynamisch anpasst und aktualisiert, sobald ich im Spiel Entscheidungen treffe. |
+| 6 | Muss | Qualitativ | Als ein User möchte ich, Im Spiel endet das Spielerlebnis, sobald der Lebenspunktestand des Spielers auf null fällt. |
+
 
 
 ### 1.3 Testfälle
