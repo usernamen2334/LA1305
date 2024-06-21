@@ -20,14 +20,14 @@ Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Kon
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1 | Muss | Funktional | Als ein User möchte ich, dass ich spannende Inputs zu meiner Situation erhallten.|
+| 1 | Muss | Funktional | Als ein User möchte ich, dass ich spannende Inputs zu meiner Situation erhallten. |
 | 2 | Muss | Funktional | Als ein User möchte ich, dass mir bei Entscheidungspunkten jeweils drei verschiedene Antwortmöglichkeiten zur Verfügung stehen. |
 | 3 | Muss | Funktional | Als ein User möchte ich, dass mein Gesundheitszustand im Spiel durch eine Lebensanzeige dargestellt wird. |
 | 4 | Muss | Funktional | Als ein User möchte ich, dass Entscheidungen direkte Auswirkungen auf meine Lebenspunkte haben. |
-| 5 | Muss | Qualitativ | Als ein User möchte ich, dass der Lebensanzeiger im Spiel visuelles Feedback über meinen aktuellen Gesundheitszustand gibt, indem er seine Farbe basierend auf der verbleibenden Anzahl von Lebenspunkten ändert.|
+| 5 | Muss | Qualitativ | Als ein User möchte ich, dass der Lebensanzeiger im Spiel visuelles Feedback über meinen aktuellen Gesundheitszustand gibt, indem er seine Farbe basierend auf der verbleibenden Anzahl von Lebenspunkten ändert. |
 | 6 | Muss | Qualitativ | Als ein User möchte ich meinen aktuellen Standort sehen. |
-| 7 | Muss | Qualitativ | Als ein User möchte ich, dass mein aktueller Standort dsich dynamisch anpasst und aktualisiert, sobald ich im Spiel Entscheidungen treffe. |
-| 8 | Muss | Qualitativ | Als ein User möchte ich, Im Spiel endet das Spielerlebnis, sobald der Lebenspunktestand des Spielers auf null fällt. |
+| 7 | Muss | Qualitativ | Als ein User möchte ich, dass mein aktueller Standort sich dynamisch anpasst und aktualisiert, sobald ich im Spiel Entscheidungen treffe. |
+| 8 | Muss | Qualitativ | Als ein User möchte ich, im Spiel endet das Spielerlebnis, sobald der Lebenspunktestand des Spielers auf null fällt. |
 
 
 ### 1.3 Testfälle
@@ -35,7 +35,7 @@ Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Kon
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1 | Im  Quiz-spiel |   -    |  "Du findest eine geheime Kammer mit Hinweisen auf den Verbleib des Gegenstands."|
-| 2.1 | Im  Quiz-spiel Situation wird beschrieben. |  -   | "[1] Du betrittst die geheime Tür und erkundest das Innere. [2] Du ignorierst die Tür und setzt deine Suche draußen fort. [3] Du markierst die Tür und informierst deine Verbündeten."                 |
+| 2.1 | Im  Quiz-spiel Situation wird beschrieben. |  -   | "[1] Du betrittst die geheime Tür und erkundest das Innere. [2] Du ignorierst die Tür und setzt deine Suche draussen fort. [3] Du markierst die Tür und informierst deine Verbündeten."                 |
 | 3.1 | Im  Quiz-spiel Situation wird beschrieben. |  -   |       Lebensanzeiger          |
 | 4.1 | Im  Quiz-spiel Situation wird beschrieben. |  "1"   |    Lebensanzeiger -1               |
 | 5.1 | Im  Quiz-spiel Situation wird beschrieben. |  "1"   |    Lebensanzeiger wird rot.        |
@@ -44,7 +44,6 @@ Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Kon
 | 8.1 | Im  Quiz-spiel Situation wird beschrieben. |  "1"   | "Du hast das Spiel abgeschlossen, aber ohne Erfolg." |
 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
@@ -54,8 +53,14 @@ Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Kon
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 14.06.2024 |  Jashari, Marku         |  Entwicklung von spannenden Inputs für den User basierend auf seiner Situation.                                                  |  90' |
+| 2.A  | 14.06.2024 |  Atputharasa, Angelov   |  Bereitstellung von drei verschiedenen Antwortmöglichkeiten bei Entscheidungspunkten.                                            |  90' |
+| 3.A  | 14.06.2024 |  Jashari, Atputharasa   |  Darstellung des Gesundheitszustands des Spielers durch eine Lebensanzeige.                                                      |  90' |
+| 4.A  | 14.06.2024 |  Marku, Angelov         |  Entscheidungen sollen direkte Auswirkungen auf die Lebenspunkte haben.                                                          |  90' |
+| 5.A  | 14.06.2024 |  Atputharasa, Marku     |  Lebensanzeige gibt visuelles Feedback über den Gesundheitszustand, indem sie ihre Farbe basierend auf den Lebenspunkten ändert. |  90' |
+| 6.A  | 14.06.2024 |  Jashari, Angelov       |  Anzeige des aktuellen Standorts des Spielers.                                                                                   |  90' |
+| 7.A  | 14.06.2024 |  Jashari, Marku         |  Dynamische Anpassung und Aktualisierung des Standorts basierend auf Entscheidungen des Spielers.                                |  90' |
+| 8.A  | 14.06.2024 |  Atputharasa, Angelov   |  Das Spiel endet, wenn der Lebenspunktestand des Spielers auf null fällt.                                                        |  90' |
 
 Total: 
 
