@@ -20,7 +20,7 @@ Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Kon
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1 | Muss | Funktional | Als ein User möchte ich, dass ich spannende Fragen gestellt bekomme.|
+| 1 | Muss | Funktional | Als ein User möchte ich, dass ich spannende Inputs zu meiner Situation erhallten.|
 | 2 | Muss | Funktional | Als ein User möchte ich, dass mir bei Entscheidungspunkten jeweils drei verschiedene Antwortmöglichkeiten zur Verfügung stehen. |
 | 3 | Muss | Funktional | Als ein User möchte ich, dass mein Gesundheitszustand im Spiel durch eine Lebensanzeige dargestellt wird. |
 | 4 | Muss | Funktional | Als ein User möchte ich, dass Entscheidungen direkte Auswirkungen auf meine Lebenspunkte haben. |
