@@ -19,13 +19,14 @@ Wir entwickeln eine interaktive Webseite, die ein spannendes Quiz-Spiel durch ei
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1 | Muss | Funktional | Als ein User möchte ich, dass ich spannende Fragen gestellt bekomme|
-| 4 | Muss | Qualitativ | Als ein User möchte ich, dass mir bei Entscheidungspunkten jeweils drei verschiedene Antwortmöglichkeiten zur Verfügung stehen. |
-| 1 | Muss | Funktional | Als ein User möchte ich, dass mein Gesundheitszustand im Spiel durch eine Lebensanzeige dargestellt wird. |
-| 2 | Muss | Funktional | Als ein User möchte ich, dass Entscheidungen direkte Auswirkungen auf meine Lebenspunkte haben. |
-| 3 | Muss | Qualitativ | Als ein User möchte ich, dass der Lebensanzeiger im Spiel visuelles Feedback über meinen aktuellen Gesundheitszustand gibt, indem er seine Farbe basierend auf der verbleibenden Anzahl von Lebenspunkten ändert.|
-| 5 | Muss | Qualitativ | Als ein User möchte ich meinen aktuellen Standort sehen, der sich dynamisch anpasst und aktualisiert, sobald ich im Spiel Entscheidungen treffe. |
-| 6 | Muss | Qualitativ | Als ein User möchte ich, Im Spiel endet das Spielerlebnis, sobald der Lebenspunktestand des Spielers auf null fällt. |
+| 1 | Muss | Funktional | Als ein User möchte ich, dass ich spannende Fragen gestellt bekomme.|
+| 2 | Muss | Funktional | Als ein User möchte ich, dass mir bei Entscheidungspunkten jeweils drei verschiedene Antwortmöglichkeiten zur Verfügung stehen. |
+| 3 | Muss | Funktional | Als ein User möchte ich, dass mein Gesundheitszustand im Spiel durch eine Lebensanzeige dargestellt wird. |
+| 4 | Muss | Funktional | Als ein User möchte ich, dass Entscheidungen direkte Auswirkungen auf meine Lebenspunkte haben. |
+| 5 | Muss | Qualitativ | Als ein User möchte ich, dass der Lebensanzeiger im Spiel visuelles Feedback über meinen aktuellen Gesundheitszustand gibt, indem er seine Farbe basierend auf der verbleibenden Anzahl von Lebenspunkten ändert.|
+| 6 | Muss | Qualitativ | Als ein User möchte ich meinen aktuellen Standort sehen. |
+| 7 | Muss | Qualitativ | Als ein User möchte ich, dass mein aktueller Standort dsich dynamisch anpasst und aktualisiert, sobald ich im Spiel Entscheidungen treffe. |
+| 8 | Muss | Qualitativ | Als ein User möchte ich, Im Spiel endet das Spielerlebnis, sobald der Lebenspunktestand des Spielers auf null fällt. |
 
 
 
