@@ -46,8 +46,7 @@ Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Kon
 
 ### 1.4 Diagramme
 
-![grafik](https://github.com/usernamen2334/LA1305/assets/110892575/f0c8da5a-a8cf-4a35-b31a-e52837cff932)
-
+![grafik](https://github.com/usernamen2334/LA1305/assets/110892575/2e9acb9a-c391-44af-80b8-56224b973315)
 
 ## 2 Planen
 
