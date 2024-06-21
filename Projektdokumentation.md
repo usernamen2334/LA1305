@@ -29,13 +29,18 @@ Wir entwickeln eine interaktive Webseite, die ein spannendes Quiz-Spiel durch ei
 | 8 | Muss | Qualitativ | Als ein User möchte ich, Im Spiel endet das Spielerlebnis, sobald der Lebenspunktestand des Spielers auf null fällt. |
 
 
-
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1 |              |   -      |                   |
+| 2.1 |              |         |                   |
+| 3.1 |              |         |                   |
+| 4.1 |              |         |                   |
+| 1.1 |              |         |                   |
+| 1.1 |              |         |                   |
+| 1.1 |              |         |                   |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
