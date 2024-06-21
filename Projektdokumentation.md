@@ -3,11 +3,11 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 03.05.2024  | 0.0.1 | Kickoff-Meeting und Einführung in das Projekt. Ideen für Spielmenü gesammelt.|
-| 17.05.2024  | 0.0.2 | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.  |
-| 24.05.2024  | 0.0.3 | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.  |
-| 07.06.2024  | 0.0.4 | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.  |
-| 14.06.2024  | 1.0.0 | Entscheidung für die Entwicklung von Tic Tac Toe und Hangman in C#. Beginn der Programmierung von Tic Tac Toe. Erste Tests der Benutzereingabe.  |
+| 03.05.2024  | 0.0.1 | Kickoff-Meeting und Einführung in das Projekt. Ideen für das Spiel gesammelt.|
+| 17.05.2024  | 0.0.2 | Entscheidung für die Entwicklung von Choices of Life in C#. Beginn der Programmierung. Erste Tests der Benutzeroberfläche.  |
+| 24.05.2024  | 0.0.3 | Weiterentwicklung von Choices of Life. Fortsetzung der Programmierung und Durchführung weiterer Tests.  |
+| 07.06.2024  | 0.0.4 | Fertigstellung der finalen Version von Choices of Life. |
+| 14.06.2024  | 1.0.0 | Abschluss der Entwicklung, finale Tests durchgeführt. Projektdokumentation finalisiert.  |
 
 ## 1 Informieren
 
