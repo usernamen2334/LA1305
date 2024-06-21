@@ -34,13 +34,14 @@ Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Kon
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1 |              |   -      |                   |
-| 2.1 |              |         |                   |
-| 3.1 |              |         |                   |
-| 4.1 |              |         |                   |
-| 1.1 |              |         |                   |
-| 1.1 |              |         |                   |
-| 1.1 |              |         |                   |
+| 1.1 | Im  Quiz-spiel |   -    |  "Du findest eine geheime Kammer mit Hinweisen auf den Verbleib des Gegenstands."|
+| 2.1 | Im  Quiz-spiel Situation wird beschrieben. |  -   | "[1] Du betrittst die geheime Tür und erkundest das Innere. [2] Du ignorierst die Tür und setzt deine Suche draußen fort. [3] Du markierst die Tür und informierst deine Verbündeten."                 |
+| 3.1 | Im  Quiz-spiel Situation wird beschrieben. |  -   |       Lebensanzeiger          |
+| 4.1 | Im  Quiz-spiel Situation wird beschrieben. |  "1"   |    Lebensanzeiger -1               |
+| 5.1 | Im  Quiz-spiel Situation wird beschrieben. |  "1"   |    Lebensanzeiger wird rot.        |
+| 6.1 | Im  Quiz-spiel |  -       |     "Hamburg"              | 
+| 7.1 | Im  Quiz-spiel Situation wird beschrieben. |  "1"   | "München"|
+| 8.1 | Im  Quiz-spiel Situation wird beschrieben. |  "1"   | "Du hast das Spiel abgeschlossen, aber ohne Erfolg." |
 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
