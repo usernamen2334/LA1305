@@ -13,7 +13,8 @@
 
 ### 1.1 Ihr Projekt
 
-Wir entwickeln eine interaktive Webseite, die ein spannendes Quiz-Spiel durch ein robustes Backend ermöglicht.
+Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Konsequenzen dieser Entscheidungen erlebt. Es wurde in C# unter Verwendung von objektorientierter Programmierung (OOP) entwickelt.
+
 
 ### 1.2 User Stories
 
