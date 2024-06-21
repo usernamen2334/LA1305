@@ -44,10 +44,10 @@ Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Kon
 | 8.1 | Im  Quiz-spiel Situation wird beschrieben. |  "1"   | "Du hast das Spiel abgeschlossen, aber ohne Erfolg." |
 
 
-
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![grafik](https://github.com/usernamen2334/LA1305/assets/110892575/f0c8da5a-a8cf-4a35-b31a-e52837cff932)
+
 
 ## 2 Planen
 
@@ -62,24 +62,25 @@ Choices of Life - Ein Spiel, bei dem man Lebensentscheidungen trifft und die Kon
 | 7.A  | 14.06.2024 |  Jashari, Marku         |  Dynamische Anpassung und Aktualisierung des Standorts basierend auf Entscheidungen des Spielers.                                |  90' |
 | 8.A  | 14.06.2024 |  Atputharasa, Angelov   |  Das Spiel endet, wenn der Lebenspunktestand des Spielers auf null fällt.                                                        |  90' |
 
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+Total: 720'
 
 ## 3 Entscheiden
 
-Für unseren Lernauftrag 1304 haben wir MongoDB als Datenbank ausgewählt und die Mongoose-Bibliothek zur Modellierung von Objektdaten verwendet. Verschiedene Beziehungen wurden damit verwaltet. Um sicherzustellen, dass Anmeldedaten nicht in einem öffentlich zugänglichen Online-Repository erscheinen, haben wir .env-Dateien genutzt.
+Wir haben uns entschieden, das Projekt mit dem IPERKA-Verfahren durchzuführen, um eine strukturierte und effiziente Umsetzung sicherzustellen.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  | 14.06.2024 |  Jashari, Marku          |  90' |  90' |
+| 2.A  | 14.06.2024 |  Atputharasa, Angelov    |  90' |  150' |
+| 3.A  | 14.06.2024 |  Jashari, Atputharasa    |  90' |  120' |
+| 4.A  | 14.06.2024 |  Marku, Angelov          |  90' |  120' |
+| 5.A  | 14.06.2024 |  Atputharasa, Marku      |  90' |  120' |
+| 6.A  | 14.06.2024 |  Jashari, Angelov        |  90' |  90' |
+| 7.A  | 14.06.2024 |  Jashari, Marku          |  90' |  90' |
+| 8.A  | 14.06.2024 |  Atputharasa, Angelov    |  90' |  90' |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
@@ -87,21 +88,12 @@ Für unseren Lernauftrag 1304 haben wir MongoDB als Datenbank ausgewählt und di
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
-
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
-
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+| 1.1 | 14.06.2024 | OK  |  Atputharasa  |
+| 2.1 | 14.06.2024 | OK  |  Marku        |
+| 3.1 | 14.06.2024 | OK  |  Angelov      |
+| 4.1 | 14.06.2024 | OK  |  Jashari      |
+| 5.1 | 14.06.2024 | OK  |  Angelov      |
+| 6.1 | 14.06.2024 | OK  |  Marku        |
+| 7.1 | 14.06.2024 | OK  |  Atputharasa  |
+| 8.1 | 14.06.2024 | OK  |  Jashari      |
 
